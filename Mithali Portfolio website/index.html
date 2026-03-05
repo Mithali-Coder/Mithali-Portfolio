@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mithali | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2 class="logo">Mithali</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>Mithali Thakur</span> 👋</h1>
+            <h3 id="typing"></h3>
+            <button onclick="scrollToProjects()">View Projects</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me :</h2><br>
+        <p><h3>
+            I am a passionate Software Developer learning Full Stack Development.
+            I am a passionate software developer with strong skills in HTML, CSS, JavaScript.
+            I enjoy building responsive and user-friendly web applications.
+            I am always eager to learn new technologies and improve my problem-solving abilities.
+            My goal is to create efficient, scalable, and impactful software solutions.</p></h3><br><br>
+
+        <div class="skills">
+            <h2><b>Skills :</b></h2><br>
+            <h3>Programming Language: java</h3>
+            <h3>Data Structure and Algorithms</h3>
+            <h3>Database: SQL</h3>
+            <h3>Fronted Technologies: HTML 5, CSS 3, Javascript, ReactJS.</h3>
+            <h3>Backend Technologies: Node.js, Express.js.</h3>
+            <h3>Version Control: Git & Github.</h3>
+            <!--<ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Git & GitHub</li>
+            </ul>-->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects :</h2>
+
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Gift Hub (Amazon Clone)</h3>
+                <img src="gifthub website.png" alt="Gift Hub Screenshot">
+                <p>E-commerce UI built using HTML, CSS & JS.</p>
+                <button onclick="alert('https://github.com/Mithali-Coder/Gift-Hub')">View</button>
+            </div>
+
+            <div class="project-card">
+                <h3>Coffee Shop Website</h3>
+                <img src="coffee website.png" alt="Coffee Shop Screenshot">
+                <p>Modern responsive coffee shop website.</p>
+                <button onclick="alert('https://github.com/Mithali-Coder/Cafe-Shop-Website')">View</button>
+            </div>
+
+            <div class="project-card">
+                <h3>Password Generator</h3>
+                <img src="password_generator.png" alt="Password Generator Screenshot">
+                <p>Random secure password generator using JavaScript.</p>
+                <button onclick="alert('https://github.com/Mithali-Coder/Password-Generator')">View</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: mithali412@gmail.com</p>
+        <p>GitHub: github.com/Mithali-Coder</p>
+        <p>LinkedIn: linkedin.com/in/Mithali Thakur</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Mithali | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
